@@ -1,0 +1,6 @@
+node_modules/
+orm-test/
+.env
+dist/
+.vite/
+*.log

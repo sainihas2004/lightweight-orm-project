@@ -1,0 +1,20 @@
+{
+  "name": "@sai_nihas/lightweight-orm",
+  "version": "1.0.0",
+  "description": "A lightweight TypeScript ORM for PostgreSQL-compatible databases",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "orm",
+    "typescript",
+    "postgresql"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

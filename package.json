@@ -1,0 +1,13 @@
+{
+  "name": "lightweight-orm-project",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "echo \"Use workspace-specific dev commands\"",
+    "build": "echo \"Build workspaces\""
+  }
+}
