@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
   "dev": "tsx src/server.ts",
-  "build": "npm run build --workspace=@sai_nihas/lightweight-orm && tsc"
+  "build": "tsc",
+  "start": "node dist/server.js"
 },
   "dependencies": {
     "@sai_nihas/lightweight-orm": "^1.0.0",
