@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "tsx src/server.ts",
-    "build": "tsc"
-  },
+  "dev": "tsx src/server.ts",
+  "build": "npm run build --workspace=@sai_nihas/lightweight-orm && tsc"
+},
   "dependencies": {
     "@sai_nihas/lightweight-orm": "^1.0.0",
     "cors": "^2.8.5",
