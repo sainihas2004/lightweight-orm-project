@@ -2,10 +2,9 @@
   "name": "todo-app",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-  "dev": "tsx src/server.ts",
-  "build": "tsc",
-  "start": "node dist/server.js"
+ "scripts": {
+  "start": "node dist/server.js",
+  "build": "npm run build --workspace=@sai_nihas/lightweight-orm && tsc"
 },
   "dependencies": {
     "@sai_nihas/lightweight-orm": "^1.0.0",
