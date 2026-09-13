@@ -13,7 +13,7 @@ function App() {
   // Get todos from backend
   const fetchTodos = async () => {
     try {
-      const response = await fetch("http://lightweight-orm-project-2.onrender.com/todos");
+      const response = await fetch("https://lightweight-orm-project-2.onrender.com/todos");
       const data = await response.json();
 
       setTodos(data);
@@ -35,7 +35,7 @@ function App() {
     }
 
     try {
-      const response = await fetch("http://lightweight-orm-project-2.onrender.com/todos", {
+      const response = await fetch("https://lightweight-orm-project-2.onrender.com/todos", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -57,7 +57,7 @@ function App() {
   // Mark todo as completed
   const handleCompleteTodo = async (id: number) => {
     try {
-      await fetch(`http://lightweight-orm-project-2.onrender.com/todos/${id}`, {
+      await fetch(`https://lightweight-orm-project-2.onrender.com/todos/${id}`, {
         method: "PATCH"
       });
 
@@ -71,7 +71,7 @@ function App() {
   // Delete todo
   const handleDeleteTodo = async (id: number) => {
     try {
-      await fetch(`http://lightweight-orm-project-2.onrender.com/todos/${id}`, {
+      await fetch(`https://lightweight-orm-project-2.onrender.com/todos/${id}`, {
         method: "DELETE"
       });
 
